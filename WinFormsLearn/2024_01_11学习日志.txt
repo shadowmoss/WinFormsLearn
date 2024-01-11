@@ -1,0 +1,10 @@
+﻿***2024/01/11日志***
+消息框的使用
+MessageBox类型的Show()静态方法。
+MessageBox("消息框内容","消息框标题");
+MessageBox("消息框内容","消息框标题",MessageBoxButtons消息框按键);
+MessageBox("消息框内容","消息框标题",MessageBoxButtons消息框按键,MessageBoxIcon消息框图标)
+// 后两个参数值是枚举值。
+
+// MessageBox.Show()方法返回一个DialogResult类型的参数
+DialogResult result = MessageBox.Show();
