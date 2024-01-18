@@ -36,24 +36,24 @@
             button3 = new Button();
             button4 = new Button();
             groupBox1 = new GroupBox();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            label4 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            label5 = new Label();
-            textBox2 = new TextBox();
-            label6 = new Label();
-            textBox3 = new TextBox();
-            label7 = new Label();
-            textBox4 = new TextBox();
-            label8 = new Label();
-            textBox5 = new TextBox();
-            label9 = new Label();
-            label10 = new Label();
             textBox6 = new TextBox();
+            label9 = new Label();
+            label8 = new Label();
+            label10 = new Label();
+            label7 = new Label();
+            textBox5 = new TextBox();
+            textBox3 = new TextBox();
+            label6 = new Label();
+            textBox4 = new TextBox();
+            textBox2 = new TextBox();
+            label5 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            label4 = new Label();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
+            label3 = new Label();
+            textBox1 = new TextBox();
+            label2 = new Label();
             button5 = new Button();
             button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -150,42 +150,116 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "学员基本信息";
             // 
-            // label2
+            // textBox6
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(14, 45);
-            label2.Name = "label2";
-            label2.Size = new Size(59, 17);
-            label2.TabIndex = 0;
-            label2.Text = "学员姓名:";
+            textBox6.BorderStyle = BorderStyle.FixedSingle;
+            textBox6.Location = new Point(84, 146);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(606, 23);
+            textBox6.TabIndex = 13;
             // 
-            // textBox1
+            // label9
             // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(84, 42);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(132, 23);
-            textBox1.TabIndex = 1;
+            label9.AutoSize = true;
+            label9.Location = new Point(20, 147);
+            label9.Name = "label9";
+            label9.Size = new Size(59, 17);
+            label9.TabIndex = 12;
+            label9.Text = "家庭住址:";
             // 
-            // label3
+            // label8
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(269, 44);
-            label3.Name = "label3";
-            label3.Size = new Size(35, 17);
-            label3.TabIndex = 2;
-            label3.Text = "性别:";
+            label8.AutoSize = true;
+            label8.Location = new Point(272, 117);
+            label8.Name = "label8";
+            label8.Size = new Size(59, 17);
+            label8.TabIndex = 11;
+            label8.Text = "联系电话:";
             // 
-            // radioButton1
+            // label10
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(321, 40);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(38, 21);
-            radioButton1.TabIndex = 3;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "男";
-            radioButton1.UseVisualStyleBackColor = true;
+            label10.AutoSize = true;
+            label10.Location = new Point(14, 117);
+            label10.Name = "label10";
+            label10.Size = new Size(59, 17);
+            label10.TabIndex = 10;
+            label10.Text = "考勤卡号:";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(18, 117);
+            label7.Name = "label7";
+            label7.Size = new Size(59, 17);
+            label7.TabIndex = 10;
+            label7.Text = "考勤卡号:";
+            // 
+            // textBox5
+            // 
+            textBox5.BorderStyle = BorderStyle.FixedSingle;
+            textBox5.Location = new Point(354, 111);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(336, 23);
+            textBox5.TabIndex = 9;
+            // 
+            // textBox3
+            // 
+            textBox3.BorderStyle = BorderStyle.FixedSingle;
+            textBox3.Location = new Point(354, 73);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(336, 23);
+            textBox3.TabIndex = 9;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(272, 76);
+            label6.Name = "label6";
+            label6.Size = new Size(71, 17);
+            label6.TabIndex = 8;
+            label6.Text = "身份证号码:";
+            // 
+            // textBox4
+            // 
+            textBox4.BorderStyle = BorderStyle.FixedSingle;
+            textBox4.Location = new Point(85, 115);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(132, 23);
+            textBox4.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            textBox2.BorderStyle = BorderStyle.FixedSingle;
+            textBox2.Location = new Point(85, 77);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(132, 23);
+            textBox2.TabIndex = 7;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(14, 79);
+            label5.Name = "label5";
+            label5.Size = new Size(59, 17);
+            label5.TabIndex = 6;
+            label5.Text = "所在班级:";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(556, 42);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(134, 23);
+            dateTimePicker1.TabIndex = 5;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(488, 44);
+            label4.Name = "label4";
+            label4.Size = new Size(59, 17);
+            label4.TabIndex = 4;
+            label4.Text = "出生日期:";
             // 
             // radioButton2
             // 
@@ -198,116 +272,42 @@
             radioButton2.Text = "女";
             radioButton2.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // radioButton1
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(488, 44);
-            label4.Name = "label4";
-            label4.Size = new Size(59, 17);
-            label4.TabIndex = 4;
-            label4.Text = "出生日期:";
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(321, 40);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(38, 21);
+            radioButton1.TabIndex = 3;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "男";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // label3
             // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(556, 42);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(134, 23);
-            dateTimePicker1.TabIndex = 5;
+            label3.AutoSize = true;
+            label3.Location = new Point(269, 44);
+            label3.Name = "label3";
+            label3.Size = new Size(35, 17);
+            label3.TabIndex = 2;
+            label3.Text = "性别:";
             // 
-            // label5
+            // textBox1
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(14, 79);
-            label5.Name = "label5";
-            label5.Size = new Size(59, 17);
-            label5.TabIndex = 6;
-            label5.Text = "所在班级:";
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Location = new Point(84, 42);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(132, 23);
+            textBox1.TabIndex = 1;
             // 
-            // textBox2
+            // label2
             // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(85, 77);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(132, 23);
-            textBox2.TabIndex = 7;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(272, 76);
-            label6.Name = "label6";
-            label6.Size = new Size(71, 17);
-            label6.TabIndex = 8;
-            label6.Text = "身份证号码:";
-            // 
-            // textBox3
-            // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(354, 73);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(336, 23);
-            textBox3.TabIndex = 9;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(18, 117);
-            label7.Name = "label7";
-            label7.Size = new Size(59, 17);
-            label7.TabIndex = 10;
-            label7.Text = "考勤卡号:";
-            // 
-            // textBox4
-            // 
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Location = new Point(85, 115);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(132, 23);
-            textBox4.TabIndex = 7;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(272, 117);
-            label8.Name = "label8";
-            label8.Size = new Size(59, 17);
-            label8.TabIndex = 11;
-            label8.Text = "联系电话:";
-            // 
-            // textBox5
-            // 
-            textBox5.BorderStyle = BorderStyle.FixedSingle;
-            textBox5.Location = new Point(354, 111);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(336, 23);
-            textBox5.TabIndex = 9;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(20, 147);
-            label9.Name = "label9";
-            label9.Size = new Size(59, 17);
-            label9.TabIndex = 12;
-            label9.Text = "家庭住址:";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(14, 117);
-            label10.Name = "label10";
-            label10.Size = new Size(59, 17);
-            label10.TabIndex = 10;
-            label10.Text = "考勤卡号:";
-            // 
-            // textBox6
-            // 
-            textBox6.BorderStyle = BorderStyle.FixedSingle;
-            textBox6.Location = new Point(84, 146);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(606, 23);
-            textBox6.TabIndex = 13;
+            label2.AutoSize = true;
+            label2.Location = new Point(14, 45);
+            label2.Name = "label2";
+            label2.Size = new Size(59, 17);
+            label2.TabIndex = 0;
+            label2.Text = "学员姓名:";
             // 
             // button5
             // 
@@ -326,6 +326,7 @@
             button6.TabIndex = 4;
             button6.Text = "关闭窗口";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // FrmAddStudent
             // 

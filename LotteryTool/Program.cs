@@ -1,4 +1,4 @@
-namespace StudentManager
+namespace LotteryTool
 {
     internal static class Program
     {
@@ -11,11 +11,7 @@ namespace StudentManager
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            //Application.Run(new Form1());
-            // 文件操作窗口
-            //Application.Run(new FrmFiles());
-            // 对象保存操作
-            Application.Run(new FrmObjectSave());
+            Application.Run(new FrmMain());
         }
     }
 }

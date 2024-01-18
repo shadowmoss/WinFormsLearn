@@ -42,22 +42,22 @@
             statusStrip1 = new StatusStrip();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
             toolStripStatusLabel2 = new ToolStripStatusLabel();
-            splitContainer1 = new SplitContainer();
-            monthCalendar1 = new MonthCalendar();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            imageList1 = new ImageList(components);
-            button7 = new Button();
+            spContainer = new SplitContainer();
             button8 = new Button();
+            button7 = new Button();
+            button6 = new Button();
+            button5 = new Button();
+            button4 = new Button();
+            btnStuManage = new Button();
+            button2 = new Button();
+            btnAddStudent = new Button();
+            monthCalendar1 = new MonthCalendar();
+            imageList1 = new ImageList(components);
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
-            splitContainer1.Panel1.SuspendLayout();
-            splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)spContainer).BeginInit();
+            spContainer.Panel1.SuspendLayout();
+            spContainer.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -65,7 +65,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { 系统ToolStripMenuItem, 学员管理ToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 25);
+            menuStrip1.Size = new Size(1147, 25);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -126,9 +126,9 @@
             // statusStrip1
             // 
             statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripStatusLabel2 });
-            statusStrip1.Location = new Point(0, 428);
+            statusStrip1.Location = new Point(0, 598);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(800, 22);
+            statusStrip1.Size = new Size(1147, 22);
             statusStrip1.TabIndex = 1;
             statusStrip1.Text = "statusStrip1";
             // 
@@ -144,103 +144,28 @@
             toolStripStatusLabel2.Size = new Size(59, 17);
             toolStripStatusLabel2.Text = "当前用户:";
             // 
-            // splitContainer1
+            // spContainer
             // 
-            splitContainer1.BorderStyle = BorderStyle.Fixed3D;
-            splitContainer1.Dock = DockStyle.Fill;
-            splitContainer1.FixedPanel = FixedPanel.Panel1;
-            splitContainer1.Location = new Point(0, 25);
-            splitContainer1.Name = "splitContainer1";
+            spContainer.BorderStyle = BorderStyle.Fixed3D;
+            spContainer.Dock = DockStyle.Fill;
+            spContainer.FixedPanel = FixedPanel.Panel1;
+            spContainer.Location = new Point(0, 25);
+            spContainer.Name = "spContainer";
             // 
-            // splitContainer1.Panel1
+            // spContainer.Panel1
             // 
-            splitContainer1.Panel1.Controls.Add(button8);
-            splitContainer1.Panel1.Controls.Add(button7);
-            splitContainer1.Panel1.Controls.Add(button6);
-            splitContainer1.Panel1.Controls.Add(button5);
-            splitContainer1.Panel1.Controls.Add(button4);
-            splitContainer1.Panel1.Controls.Add(button3);
-            splitContainer1.Panel1.Controls.Add(button2);
-            splitContainer1.Panel1.Controls.Add(button1);
-            splitContainer1.Panel1.Controls.Add(monthCalendar1);
-            splitContainer1.Size = new Size(800, 403);
-            splitContainer1.SplitterDistance = 224;
-            splitContainer1.TabIndex = 2;
-            // 
-            // monthCalendar1
-            // 
-            monthCalendar1.Location = new Point(1, -2);
-            monthCalendar1.Name = "monthCalendar1";
-            monthCalendar1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(10, 191);
-            button1.Name = "button1";
-            button1.Size = new Size(80, 44);
-            button1.TabIndex = 1;
-            button1.Text = "添加学员";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(125, 191);
-            button2.Name = "button2";
-            button2.Size = new Size(92, 44);
-            button2.TabIndex = 2;
-            button2.Text = "批量导入";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(10, 241);
-            button3.Name = "button3";
-            button3.Size = new Size(80, 44);
-            button3.TabIndex = 1;
-            button3.Text = "学员管理";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(125, 241);
-            button4.Name = "button4";
-            button4.Size = new Size(92, 44);
-            button4.TabIndex = 2;
-            button4.Text = "考勤打卡";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(10, 291);
-            button5.Name = "button5";
-            button5.Size = new Size(80, 44);
-            button5.TabIndex = 1;
-            button5.Text = "成绩分析";
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.Location = new Point(125, 291);
-            button6.Name = "button6";
-            button6.Size = new Size(92, 44);
-            button6.TabIndex = 2;
-            button6.Text = "成绩浏览";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // imageList1
-            // 
-            imageList1.ColorDepth = ColorDepth.Depth32Bit;
-            imageList1.ImageSize = new Size(16, 16);
-            imageList1.TransparentColor = Color.Transparent;
-            // 
-            // button7
-            // 
-            button7.Location = new Point(10, 352);
-            button7.Name = "button7";
-            button7.Size = new Size(80, 44);
-            button7.TabIndex = 1;
-            button7.Text = "密码修改";
-            button7.UseVisualStyleBackColor = true;
+            spContainer.Panel1.Controls.Add(button8);
+            spContainer.Panel1.Controls.Add(button7);
+            spContainer.Panel1.Controls.Add(button6);
+            spContainer.Panel1.Controls.Add(button5);
+            spContainer.Panel1.Controls.Add(button4);
+            spContainer.Panel1.Controls.Add(btnStuManage);
+            spContainer.Panel1.Controls.Add(button2);
+            spContainer.Panel1.Controls.Add(btnAddStudent);
+            spContainer.Panel1.Controls.Add(monthCalendar1);
+            spContainer.Size = new Size(1147, 573);
+            spContainer.SplitterDistance = 224;
+            spContainer.TabIndex = 2;
             // 
             // button8
             // 
@@ -251,12 +176,89 @@
             button8.Text = "退出系统";
             button8.UseVisualStyleBackColor = true;
             // 
+            // button7
+            // 
+            button7.Location = new Point(10, 352);
+            button7.Name = "button7";
+            button7.Size = new Size(80, 44);
+            button7.TabIndex = 1;
+            button7.Text = "密码修改";
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(125, 291);
+            button6.Name = "button6";
+            button6.Size = new Size(92, 44);
+            button6.TabIndex = 2;
+            button6.Text = "成绩浏览";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(10, 291);
+            button5.Name = "button5";
+            button5.Size = new Size(80, 44);
+            button5.TabIndex = 1;
+            button5.Text = "成绩分析";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(125, 241);
+            button4.Name = "button4";
+            button4.Size = new Size(92, 44);
+            button4.TabIndex = 2;
+            button4.Text = "考勤打卡";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // btnStuManage
+            // 
+            btnStuManage.Location = new Point(10, 241);
+            btnStuManage.Name = "btnStuManage";
+            btnStuManage.Size = new Size(80, 44);
+            btnStuManage.TabIndex = 1;
+            btnStuManage.Text = "学员管理";
+            btnStuManage.UseVisualStyleBackColor = true;
+            btnStuManage.Click += btnStuManage_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(125, 191);
+            button2.Name = "button2";
+            button2.Size = new Size(92, 44);
+            button2.TabIndex = 2;
+            button2.Text = "批量导入";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // btnAddStudent
+            // 
+            btnAddStudent.Location = new Point(10, 191);
+            btnAddStudent.Name = "btnAddStudent";
+            btnAddStudent.Size = new Size(80, 44);
+            btnAddStudent.TabIndex = 1;
+            btnAddStudent.Text = "添加学员";
+            btnAddStudent.UseVisualStyleBackColor = true;
+            btnAddStudent.Click += btnAddStudent_Click;
+            // 
+            // monthCalendar1
+            // 
+            monthCalendar1.Location = new Point(1, -2);
+            monthCalendar1.Name = "monthCalendar1";
+            monthCalendar1.TabIndex = 0;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageSize = new Size(16, 16);
+            imageList1.TransparentColor = Color.Transparent;
+            // 
             // FrmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(splitContainer1);
+            ClientSize = new Size(1147, 620);
+            Controls.Add(spContainer);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -266,9 +268,9 @@
             menuStrip1.PerformLayout();
             statusStrip1.ResumeLayout(false);
             statusStrip1.PerformLayout();
-            splitContainer1.Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
-            splitContainer1.ResumeLayout(false);
+            spContainer.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)spContainer).EndInit();
+            spContainer.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -288,14 +290,14 @@
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel toolStripStatusLabel1;
         private ToolStripStatusLabel toolStripStatusLabel2;
-        private SplitContainer splitContainer1;
+        private SplitContainer spContainer;
         private MonthCalendar monthCalendar1;
         private Button button6;
         private Button button5;
         private Button button4;
-        private Button button3;
+        private Button btnStuManage;
         private Button button2;
-        private Button button1;
+        private Button btnAddStudent;
         private ImageList imageList1;
         private Button button8;
         private Button button7;

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
             textBox1 = new TextBox();
@@ -37,16 +36,9 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(16, 25);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(513, 403);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -118,6 +110,14 @@
             button4.Text = "退出";
             button4.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(16, 25);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(513, 403);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
             // FrmUserLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
@@ -142,8 +142,6 @@
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
         private TextBox textBox1;
@@ -152,5 +150,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private PictureBox pictureBox1;
     }
 }

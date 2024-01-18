@@ -3,5 +3,17 @@
 2、创建Models实例类库
 3、主窗体宽1280x768项目
 4、右键创建用户登录窗体
-***Winform项目主窗体设计
-1、创建菜单栏 MenuStrip
+***Winform项目主窗体设计***
+1、创建菜单栏 MenuStrip组件
+2、添加菜单选项,为菜单添加快捷键,菜单名称后跟(M&)为菜单项添加快捷键(alt+M)
+3、为主窗口添加容器控件(SplitContainer)。
+4、将容器左侧设置为FiexPanel(使得容器左侧内容不会随拉伸变化)
+5、在左侧容器左上角添加:MonthCalender控件
+6、在容器左侧左下角添加按钮
+7、在主窗口下方添加StatusStrip
+8、StatusStrip中可以添加四种控件StatusLabel、ProgressBar、DropDownButton、SplitButton
+***Winform项目添加新学员窗口***
+1、向窗口中添加两个PictureBox控件
+2、两个PictureBox控件中间添加按钮组
+3、在下方添加GroupBox控件
+4、按顺序添加Label控件、TextBox控件,RadioButton控件、DateTimePicker控件

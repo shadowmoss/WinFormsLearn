@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace StudentManager
 {
-    public partial class FrmAddStudent : Form
+    public partial class FrmReadXML : Form
     {
-        public FrmAddStudent()
+        public FrmReadXML()
         {
             InitializeComponent();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

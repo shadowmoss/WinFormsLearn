@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsLearn", "WinFormsLearn\WinFormsLearn.csproj", "{D0A21921-308B-4715-8178-ECA7E9E3CCAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsLearn", "WinFormsLearn\WinFormsLearn.csproj", "{D0A21921-308B-4715-8178-ECA7E9E3CCAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManager", "StudentManager\StudentManager.csproj", "{4AE3EDB5-3EB6-40AF-A880-E572C23A6827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManager", "StudentManager\StudentManager.csproj", "{4AE3EDB5-3EB6-40AF-A880-E572C23A6827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3BBD3B9C-EF33-4A7E-9C5B-CDC2B5075C74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{3BBD3B9C-EF33-4A7E-9C5B-CDC2B5075C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{BEAF28B0-BE02-428A-A0FC-70AC40A4B750}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{BEAF28B0-BE02-428A-A0FC-70AC40A4B750}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LotteryTool", "LotteryTool\LotteryTool.csproj", "{EA8FF184-4D7C-464B-B1D3-EBBDB194BCAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{B00094DE-792B-4E00-9559-B4B25B18F30D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{BEAF28B0-BE02-428A-A0FC-70AC40A4B750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEAF28B0-BE02-428A-A0FC-70AC40A4B750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEAF28B0-BE02-428A-A0FC-70AC40A4B750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8FF184-4D7C-464B-B1D3-EBBDB194BCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8FF184-4D7C-464B-B1D3-EBBDB194BCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8FF184-4D7C-464B-B1D3-EBBDB194BCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8FF184-4D7C-464B-B1D3-EBBDB194BCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00094DE-792B-4E00-9559-B4B25B18F30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00094DE-792B-4E00-9559-B4B25B18F30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00094DE-792B-4E00-9559-B4B25B18F30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00094DE-792B-4E00-9559-B4B25B18F30D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

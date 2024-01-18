@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace StudentManager
 {
-    public partial class FrmAddStudent : Form
+    public partial class FrmStudentManage : Form
     {
-        public FrmAddStudent()
+        public FrmStudentManage()
         {
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void studentManageClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
